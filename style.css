@@ -35,6 +35,7 @@ body {
   left: 0px;
   top: 53px;
   padding: 0;
+  transition: 0.5s;
 }
 .task {
   display: flex;
@@ -43,4 +44,7 @@ body {
 }
 .task-done {
   text-decoration: line-through;
+}
+.task-tabs div {
+  cursor: pointer;
 }
